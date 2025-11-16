@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa </title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mesa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offers">العروض</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#booking">الحجز</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">اتصل بنا</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">مرحباً بك في Mesa</h1>
+            <p class="hero-description">المكان اللي هتاخد فيه استراحة من دوشة اليوم وتعيش لحظات من الرفاهية الحقيقية.</p>
+            <p class="hero-description">موقعنا مصمم بروح شبابية وعصرية، ألوان هادية ولمسات رايقة تخليك تحس بالراحة من أول ما تفتح الصفحة.</p>
+            <div class="hero-buttons mt-4">
+                <button class="hero-btn btn-primary" id="bookNowBtn">احجز الآن</button>
+                <button class="hero-btn btn-outline-primary" id="viewServicesBtn">استكشف الخدمات</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="text-center mb-5">مجموعة كبيرة من جلسات المساج</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="glass-card service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h4>مساج استرخائي</h4>
+                        <p>جلسة مساج مريحة تساعد على الاسترخاء والتخلص من التوتر</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h4>مساج علاجي</h4>
+                        <p>مساج متخصص لعلاج آلام العضلات والمفاصل وتحسين الدورة الدموية</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h4>مساج بالحجامة</h4>
+                        <p>جلسة مساج تقليدية مع الحجامة لتنشيط الدورة الدموية</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe-europe"></i>
+                        </div>
+                        <h4>مساج أوروبي</h4>
+                        <p>تقنيات مساج أوروبية متطورة للاسترخاء العميق</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>جلسات عناية بالجسم</h4>
+                        <p>جلسات عناية شاملة للجسم والريفريش لتجديد النشاط</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <h2 class="text-center mb-5">عروض قوية وحصرية</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 ">
+                    <div class="glass-card offer-card">
+                        <span class="offer-badge">عرض خاص</span>
+                        <h4>باقات خصم على الجلسات المتعددة</h4>
+                        <p>20% خصم على 3 جلسات أو أكتر</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card offer-card">
+                        <span class="offer-badge">عرض نهاية الأسبوع</span>
+                        <h4>عروض نهاية الأسبوع</h4>
+                        <p>10% خصم على جميع الجلسات</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card offer-card">
+                        <span class="offer-badge">عرض للأزواج</span>
+                        <h4>باقات couples</h4>
+                        <p>300 جنيه لجلسة مزدوجة (بدلاً من 400)</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card offer-card">
+                        <span class="offer-badge">هدية مجانية</span>
+                        <h4>هدايا وجلسات مجانية</h4>
+                        <p>جلسة عناية مجانية مع أي حجز</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 class="text-center mb-5">احجز جلسة الآن</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="glass-card">
+                        <form class="booking-form"  method="POST" id="bookingForm">
+                            <div class="row" action="">
+                                <div class="col-md-6">
+                                    <input type="text" name="اسم العميل" class="form-control" placeholder="الاسم الكامل" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" name="رقم العميل" class="form-control" placeholder="رقم الهاتف" required>
+                                </div>
+                            </div>
+                            <select class="form-control" name="نوع الخدمة" required>
+                                <option value="" disabled selected>اختر الجلسة</option>
+                                <option value="مساج استرخائي">مساج استرخائي</option>
+                                <option value="مساج علاجي">مساج علاجي</option>
+                                <option value="مساج بالحجامة">مساج بالحجامة</option>
+                                <option value="مساج أوروبي">مساج أوروبي</option>
+                                <option value="جلسات عناية بالجسم">جلسات عناية بالجسم</option>
+                            </select>
+                            <input type="date" name="تاريخ الحجز" class="form-control" required>
+                            <button type="submit" class="btn btn-primary w-100">احجز الآن</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="text-center mb-5">الموقع بسيط وسهل الاستخدام</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="glass-card">
+                        <ul class="feature-list">
+                            <li>تحجز في دقيقة</li>
+                            <li>تشوف العروض أول بأول</li>
+                            <li>تختار المعالج أو نوع الجلسة</li>
+                            <li>تتابع مواعيدك أونلاين</li>
+                        </ul>
+                        <div class="text-center mt-4">
+                            <button class="hero-btn btn-primary" id="startNowBtn">ابدأ الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <img src="massage.jpg" alt="Mesa مساج" class="img-fluid rounded glass-card">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-center mb-5">تواصل معنا</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="glass-card contact-info">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>اتصل بنا</h4>
+                        <p>01221645368</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card contact-info">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>البريد الإلكتروني</h4>
+                        <p>Lamesw881@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card contact-info">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>العنوان</h4>
+                        <p>الإسكندرية، مصر</p>
+                        <a href="https://www.google.com/maps?q=31.2098617553711,29.9324016571045" 
+                           target="_blank" 
+                           class="btn btn-sm btn-primary mt-2">
+                            عرض الموقع على الخريطة
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Embedded Map Section -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="glass-card">
+                        <h4 class="text-center mb-4">موقعنا على الخريطة</h4>
+                        <div class="map-container" style="border-radius: 10px; overflow: hidden;">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.676665035157!2d29.9324016571045!3d31.2098617553711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDEyJzM1LjUiTiAyOcKwNTUnNTYuNiJF!5e0!3m2!1sen!2seg!4v1620000000000!5m2!1sen!2seg"
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-logo">Mesa</div>
+                    <p>Mesa… رفاهيتك تبدأ من هنا ✨<br>دلّع نفسك، استرخي، وسيب الباقي علينا!</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-4">روابط سريعة</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#offers">العروض</a></li>
+                        <li><a href="#booking">الحجز</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-4">معلومات الاتصال</h5>
+                    <p><i class="fas fa-envelope me-2"></i> Lamesw881@gmail.com</p>
+                    <p><i class="fas fa-phone me-2"></i> 01221645368</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> الإسكندرية، مصر</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583191658388" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/+201221645368" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>© 2025 Mesa. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("XfCDW-UHHVN8sHQCf"); // ضع المفتاح هنا
+        })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
