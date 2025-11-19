@@ -262,6 +262,14 @@
             color: var(--primary-color);
         }
 
+        .img-fluid {
+            width:100%;
+            height: auto;      
+            object-fit: cover;
+            max-height: 500px; optional limit so it never gets too tall
+        }
+
+
         /* Contact Section */
         .contact-info {
             text-align: center;
